@@ -4,11 +4,11 @@
     border: 1px solid gray;
     padding: 1em;
     display: grid;
-    grid-template-areas: "one one one one one"
-    "three three two two two"
-    "three three two two two"
-    "three three two two two"
-    "three  three four four four ";
+    grid-template-areas: "two two two one one"
+    "two two two one one"
+    "two two two one one"
+    "two two two one one"
+    "two two two one one";
     gap: 1em;
 }
 .centerFlex {
@@ -30,10 +30,4 @@
 }
 .twoG {
     grid-area: two;
-}
-.threeG {
-    grid-area: three;
-}
-.fourG {
-    grid-area: four;
 }
