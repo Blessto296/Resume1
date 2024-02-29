@@ -1,0 +1,39 @@
+.containerG {
+    height: 1000px;
+    width: 60%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: grid;
+    grid-template-areas: "one one one one one"
+    "three three two two two"
+    "three three two two two"
+    "three three two two two"
+    "three  three four four four ";
+    gap: 1em;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    
+}
+.cell {
+    border: 1px solid teal;
+}
+.img
+{
+    margin-left: 90px;
+    border-radius: 50%;
+}
+.oneG {
+    grid-area: one;
+    
+}
+.twoG {
+    grid-area: two;
+}
+.threeG {
+    grid-area: three;
+}
+.fourG {
+    grid-area: four;
+}
