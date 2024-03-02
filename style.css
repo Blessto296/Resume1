@@ -1,0 +1,38 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+. {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+:root{
+    --primary-color: #ff7613;
+    --text-colour: #727171;
+}
+html {
+    font-size: 10px
+}
+body{
+    font-family: inter, sans-serif;
+    background-color: black;
+    color:white;
+}
+img {
+width: 100%;
+}
+a {
+    text-decoration: none;
+color:white;
+}
+.container {
+    max-height: 1000px;
+    width: 10%;
+    margin: 0 auto;
+    display: grid;
+    padding: 5rem;
+    background: black;
+    grid-template-columns: 1fr 1fr;
+gap:4rem
+}
