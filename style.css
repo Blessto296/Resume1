@@ -1,32 +1,44 @@
-:root{
-    --bgcolor:#c0c3cd;
-    --blue:#0b83c4;
-    --black:#3D3F42;
-    --white:#f4f7ff;
-    --gray:#d8dce4;
-    --lightgray:#8e9095;
+:root {
+    --bgcolor: #c0c3cd;
+    --blue: #0b83c4;
+    --black: #3D3F42;
+    --white: #f4f7ff;
+    --gray: #d8dce4;
+    --lightgray: #8e9095;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: monospace;
 }
-body{
+
+body {
     background: var(--bgcolor);
 }
-.top-sec{
+
+.top-sec {
     border: 3px solid black;
     margin: 33px;
 }
-.top-left{padding: 25px; float: left;}
-.name{font-size: 45px;}
-.n-p{
+
+.top-left {
+    padding: 25px;
+    float: left;
+}
+
+.name {
+    font-size: 45px;
+}
+
+.n-p {
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 5px;
 }
-.line{
+
+.line {
     border: none;
     height: 2px;
     background: black;
@@ -36,35 +48,40 @@ body{
     float: right;
     margin-top: -39px;
 }
-.top-right{
+
+.top-right {
     float: left;
     width: 44%;
 }
-.clearfix{
+
+.clearfix {
     clear: both;
 }
-.resume-box{
+
+.resume-box {
     width: 782px;
     height: 1000px;
     margin: 100px auto;
     background: var(--white);
     box-shadow: 5px 21px 20px 20px #3d3f4238;
 }
-.left-section{
+
+.left-section {
     background: #fcf1db;
     width: 250px;
     height: 1000px;
     float: left;
 }
-.profile{
+
+.profile {
     overflow: hidden;
     position: relative;
     text-align: center;
     padding: 25px;
 }
 
-.profile-img{
-        
+.profile-img {
+
     width: 100px;
     height: 100px;
     left: 50%;
@@ -72,16 +89,27 @@ body{
     border-radius: 50%;
 }
 
-.info{
+.info {
     margin-top: 50px;
 }
-.skill{margin-left: 35px; font-size: 16px;}
-.skill li{list-style-type: square; padding-top: 10px;}
-.skill li span{float: right;
-    padding-right: 18px;}
 
-.heading{
-        font-size: 20px;
+.skill {
+    margin-left: 35px;
+    font-size: 16px;
+}
+
+.skill li {
+    list-style-type: square;
+    padding-top: 10px;
+}
+
+.skill li span {
+    float: right;
+    padding-right: 18px;
+}
+
+.heading {
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 600;
     margin: 15px;
@@ -89,18 +117,28 @@ body{
     border: 3px solid black;
     padding: 5px;
 }
-.s-box{
+
+.s-box {
     padding: 20px;
     background: #faf1dd;
 }
-.s-box p{float: left; margin-bottom: 7px; font-weight: 600;margin-top: 7px;}
-.s-box p:nth-child(2){
+
+.s-box p {
+    float: left;
+    margin-bottom: 7px;
+    font-weight: 600;
+    margin-top: 7px;
+}
+
+.s-box p:nth-child(2) {
     padding-left: 10px;
 }
-.s-box p:nth-child(4){
+
+.s-box p:nth-child(4) {
     padding-left: 10px;
 }
-.s-box p img{
+
+.s-box p img {
     width: 20px;
     vertical-align: middle;
     border: 2px solid black;
@@ -108,19 +146,25 @@ body{
     border-radius: 2px;
     padding: 2px;
 }
-.inp{padding: 15px;}
-.p1{
+
+.inp {
+    padding: 15px;
+}
+
+.p1 {
     margin-top: 10px;
     font-size: 15px;
     line-height: 14px;
     padding-left: 142px;
     font-weight: bold;
 }
-.p1 span{
+
+.p1 span {
     font-size: 12px;
     font-weight: normal;
 }
-.span1 img{
+
+.span1 img {
     width: 26px;
     padding: 6px;
     border-radius: 2px;
@@ -128,14 +172,16 @@ body{
     margin-right: 10px;
     border: 2px solid black;
 }
-.right-section{
+
+.right-section {
     padding: 0px 30px 0px 30px;
     background: var(--white);
     width: 68%;
     float: left;
     height: 1000px;
 }
-.right-heading img{
+
+.right-heading img {
     background: var(--blue);
     width: 36px;
     padding: 7px;
@@ -144,36 +190,43 @@ body{
     display: inline-block;
     margin-top: -2px;
 }
-.lan{
-padding: 18px;
+
+.lan {
+    padding: 18px;
     margin-top: 40px;
     color: black;
     text-align: justify;
     word-spacing: -4px;
     font-size: 18px;
 }
-.left{
+
+.left {
     width: 25%;
     float: left;
 }
-.right{
+
+.right {
     width: 75%;
     float: left;
 }
-.lr-box{
+
+.lr-box {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.p4{
+
+.p4 {
     font-size: 14px;
     font-weight: 600;
 }
-.p4d{
+
+.p4d {
     font-size: 14px;
     font-weight: 600;
     position: relative;
 }
-.p4d::after{
+
+.p4d::after {
     content: '';
     position: absolute;
     width: 10px;
@@ -183,7 +236,8 @@ padding: 18px;
     left: 97px;
     top: 3px;
 }
-.p4d::before{
+
+.p4d::before {
     content: '';
     width: 2px;
     height: 100px;
@@ -192,10 +246,12 @@ padding: 18px;
     right: 15px;
     top: 5px;
 }
-.p5{
+
+.p5 {
     font-size: 12px;
-    color:black;
+    color: black;
 }
-.h2{
+
+.h2 {
     font-size: 10px;
 }
